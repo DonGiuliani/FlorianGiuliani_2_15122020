@@ -194,7 +194,7 @@ form{
 }
 
 em{
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-style: normal;
     font-weight: bold;
     padding: 1em;
@@ -230,7 +230,7 @@ article{
 
 .hostel_name{
     padding: 2%;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 .hostel_star{
@@ -260,6 +260,17 @@ aside{
     border-radius: 50px;
 }
 
+.popular{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2em;
+}
+
+.fas.fa-chart-line{
+    display: flex;
+    align-items: center;
+}
+
 #populaires{
     display: flex;
     flex-direction: column;
@@ -268,23 +279,16 @@ aside{
     
 }
 
-.popular{
-    display: flex;
-    justify-content: space-around;
-    padding: 1.5em;
-}
-
-.fas.fa-chart-line{
-    display: flex;
-    align-items: center;
+.hostel_name_pop{
+    font-size: 1.5em;
 }
 
 .pop_hostel_star_s{
-    padding-top: 5em;
+    padding-top: 3em;
 }
 
 .pop_hostel_star_l{
-    padding-top: 6.5em;
+    padding-top: 2.5em;
 }
 
 /*------------------------------------*/
@@ -292,6 +296,7 @@ aside{
 /*------------------------------------*/
 
 .activity_name{
+    font-size: 1.5em;
     padding: 5%;
 }
 

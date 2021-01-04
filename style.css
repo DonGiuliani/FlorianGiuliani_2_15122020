@@ -217,6 +217,10 @@ em{
 /*==        HOSTELS     */
 /*----------------------------------*/
 
+article{
+    padding-bottom: 3em;
+}
+
 #hostel, #activity{
     display: flex;
     flex-direction: column;
@@ -251,6 +255,8 @@ em{
 
 aside{
     background-color: #F2F2F2;
+    border: 0px solid transparent;
+    border-radius: 50px;
 }
 
 #populaires{
@@ -259,7 +265,17 @@ aside{
     justify-content: center;
     align-items: center;
     
-    padding-top: 5%;
+}
+
+.popular{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+}
+
+.fas.fa-chart-line{
+    display: flex;
+    align-items: center;
 }
 
 .pop_hostel_star_s{
@@ -278,7 +294,7 @@ aside{
     padding: 5%;
 }
 
-h2{
+#ancre_hostel, #ancre_act{
     padding-top: 5%;
     font-weight: bold;
 }
@@ -341,10 +357,14 @@ h2{
 /*-----------------------------------*/
 
 footer{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    border: 0px solid transparent;
+    border-radius: 50px;
+
+    padding-top: 1.5em;
+    padding-bottom: 4em;
     background-color: #F2F2F2;
-    margin-top: 5%;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .footer{

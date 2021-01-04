@@ -41,7 +41,7 @@ body{
 
 #main{
     font-family: "Raleway", arial, sans-serif;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 a{
@@ -50,7 +50,7 @@ a{
 }
 
 strong{
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 
@@ -100,7 +100,7 @@ strong{
     padding-right: 2em ;
     padding-top: 3em;
     text-align: right;
-    grid-row: 1 /1;
+    grid-row: 1 / 1;
     grid-column: 2 / 2;
 }
 
@@ -230,6 +230,7 @@ article{
 
 .hostel_name{
     padding: 2%;
+    font-size: 1.7em;
 }
 
 .hostel_star{

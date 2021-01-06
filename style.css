@@ -276,7 +276,7 @@ aside{
 }
 
 .pop_hostel_star{
-    padding-top: 0.5em;
+    padding-top: 1.5em;
 }
 
 /*------------------------------------*/
@@ -330,7 +330,7 @@ aside{
     padding-right: 4%;
     object-fit: cover;
     width: 35%;
-    height: 150px;
+    height: 200px;
 }
 
 .imgact{

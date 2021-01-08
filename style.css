@@ -150,7 +150,7 @@ form{
 
 .submit{
     position: absolute;
-    right: 100px;
+    right: 40px;
     border: 1px solid transparent;
     border-radius: 18px;
     color: white;
@@ -199,7 +199,7 @@ form{
 }
 
 em{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-style: normal;
     font-weight: bold;
     padding-left: 0.5em;
@@ -243,7 +243,7 @@ em{
 }
 
 .hostel_name{
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding-left: 0.7em;
 }
 
@@ -293,12 +293,12 @@ aside{
 }
 
 .hostel_name_pop{
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 0;
 }
 
 .pop_hostel_star_s, .pop_hostel_star_l{
-    padding-top: 4em;
+    padding-top: 2em;
 }
 
 /*------------------------------------*/
@@ -306,13 +306,14 @@ aside{
 /*------------------------------------*/
 
 .activity_name{
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding-left: 1em;
 }
 
 #ancre_hostel, #ancre_act{
     margin: 0.5em;
-    padding-top: 5%;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 /*-----------------------------------*/
@@ -321,7 +322,7 @@ aside{
 
 .box, .boxpop{
     margin-bottom: 2em;
-    width: 90%;
+    width: 85%;
     padding: 1%;
     border: 1px solid #F2F2F2;
     border-radius: 15px;
@@ -331,7 +332,7 @@ aside{
 .boxact{
     margin-top: 4%;
     padding: 0%;
-    width: 90%;
+    width: 85%;
     border: 1px solid transparent;
     border-radius: 20px;
     box-shadow: 0 0 5px 5px #F2F2F2;
@@ -365,7 +366,7 @@ aside{
 }
 
 .box:hover, .boxpop:hover, .boxact:hover{
-    width: 92%;
+    width: 87%;
 }
 
 /*-----------------------------------*/

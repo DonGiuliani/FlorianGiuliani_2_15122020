@@ -330,8 +330,7 @@ aside{
     background-color: #FFFFFF;
 }
 .boxact{
-    margin-top: 4%;
-    padding: 0%;
+    margin-bottom: 2em;
     width: 85%;
     border: 1px solid transparent;
     border-radius: 20px;
@@ -377,7 +376,7 @@ footer{
     padding-top: 1em;
     padding-bottom: 4em;
     background-color: #F2F2F2;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .footer{

@@ -239,7 +239,7 @@ em{
 }
 
 
-#hostel, #activity, .desktop_activity_1, .desktop_activity_2{
+#hostel, #activity, .desktop_activity{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -294,17 +294,23 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
+}
+
+.pop{
+    display: flex;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    justify-content: space-between;
 }
 
 .hostel_name_pop{
     font-size: 1.2em;
     margin: 0;
-}
-
-.pop_hostel_star_s, .pop_hostel_star_l{
-    padding-top: 2em;
 }
 
 /*------------------------------------*/
@@ -356,7 +362,6 @@ aside{
     
     border: 0px solid transparent;
     border-radius: 15px 0 0 15px;
-    float: left;
     padding-right: 0.5em;
     object-fit: cover;
     width: 35%;
@@ -410,7 +415,7 @@ footer{
     }
 
     em, strong{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
 /*------------------------------------*/
@@ -485,7 +490,11 @@ footer{
 
     .hostel_name, .hostel_name_pop{
         font-size: 1em;
-} 
+    } 
+
+    .hostel_star{
+        padding-left: 0.7em;
+    }
 
 /*-------------------------------------*/
 /*==        POPULAR     */
@@ -493,14 +502,6 @@ footer{
 
     aside{
         padding-bottom: 1em;
-    }
-
-    .pop_hostel_star_s{
-        padding-top: 2em;
-    }
-
-    .pop_hostel_star_l{
-        padding-top: 0.5em;
     }
 
 /*-------------------------------------*/
@@ -538,6 +539,7 @@ footer{
 /*-----------------------------------*/
     
     footer{
+        align-items: flex-start;
         justify-content: space-around;
     }
 
@@ -559,11 +561,11 @@ footer{
     }
 
     strong{
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     em{
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     .title{
@@ -639,7 +641,7 @@ footer{
         margin: auto;
     }
 
-    article{
+    .hostels{
         background-color: #F2F2F2;
         border: 0px solid transparent;
         border-radius: 15px;
@@ -654,7 +656,7 @@ footer{
 
     .hostel_star{
         padding-left: 0.6em;
-        padding-bottom: 0;
+        padding-bottom: 0.5em;
     }
 
 /*-------------------------------------*/
@@ -678,14 +680,6 @@ footer{
         padding: 1.5em;
     }
 
-    .pop_hostel_star_l{
-        padding-top: 4em;
-    }
-
-    .pop_hostel_star_s{
-        padding-top: 5em;
-    }
-
 /*-------------------------------------*/
 /*==        ACTIVITIES      */
 /*-------------------------------------*/
@@ -704,7 +698,7 @@ footer{
         flex-wrap: nowrap;
     }
 
-    .desktop_activity_1, .desktop_activity_2{
+    .desktop_activity{
         display: flex;
         flex-direction: column;
         width: 30%;
@@ -765,6 +759,6 @@ footer{
 
     .footer{
         margin-left: 2em;
-        margin-right: 20em;
+        margin-right: 10em;
     }
 }
